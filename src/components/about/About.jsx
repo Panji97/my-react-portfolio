@@ -1,9 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import ME from "../../assets/me-about.png";
 
 const About = () => {
   return (
@@ -18,30 +15,12 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Year Working</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
-            </article>
-          </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-            rerum expedita, eum aperiam nobis delectus iusto voluptate.
-            Consequatur, culpa delectus eos enim magni aliquam praesentium velit
-            quam dignissimos aspernatur sapiente facilis laudantium, nam beatae
-            vel rerum dolores expedita? Assumenda fugit inventore sequi
-            deserunt. Reiciendis, nemo!
+            A person who passionate about learning, likes to collaborate,
+            interested in logic and problem solving. Experience in making
+            applications based on web and mobile using JavaScript, React, etc.
+            Able to take part in the development to deployment process and ready
+            to adapt to new technologies.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
